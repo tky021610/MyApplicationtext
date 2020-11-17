@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     String test = "測試";
     int xxx = 1234;
 
+    void testMaster() {
+        Log.d("test","測試 master 功能");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
