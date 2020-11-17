@@ -17,6 +17,10 @@ public class MainActivity extends AppCompatActivity {
     String test = "測試";
     int xxx = 1234;
 
+    void testBranch() {
+        Log.d("test","測試分支功能");
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
