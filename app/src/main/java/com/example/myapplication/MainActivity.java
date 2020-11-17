@@ -25,6 +25,12 @@ public class MainActivity extends AppCompatActivity {
         Log.d("test","測試分支功能");
     }
 
+    String test = "test";
+    String test2 = "test2";
+    String test3 = "test3";
+    
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
